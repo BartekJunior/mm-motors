@@ -725,8 +725,26 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services List Section
+# Services Section
 --------------------------------------------------------------*/
+
+.fb-page.fb_iframe_widget span {
+  display: block;
+  margin: 0 auto;
+  height: 700px !important
+}
+
+.fb-page.fb_iframe_widget span iframe {
+  height: 700px !important
+}
+
+.fb-page {
+  width: 100% !important;
+  height: 700px !important;
+  overflow: hidden;
+}
+
+
 .services-list .service-item {
   position: relative;
 }
