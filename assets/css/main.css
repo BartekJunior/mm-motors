@@ -70,6 +70,10 @@ section {
   padding-bottom: 30px;
 }
 
+#section-header {
+  padding: 0;
+}
+
 .section-header h2 {
   font-size: 32px;
   font-weight: 600;
