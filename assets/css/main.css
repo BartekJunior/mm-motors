@@ -571,6 +571,16 @@ section {
   background: var(--color-primary);
 }
 
+.hero .facebook-hero {
+  font-size: 36px;
+}
+
+.hero .facebook-span {
+  margin-left: 15px;
+  font-size: 22px;
+}
+
+
 .hero .btn-get-started:hover {
   background: rgba(86, 184, 230, 0.8);
 }
