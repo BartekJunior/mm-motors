@@ -1376,6 +1376,20 @@ section {
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+/* MAP INDEED */
+.map-responsive {
+  padding-bottom: 80%;
+  position: relative;
+}
+
+.map-responsive iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contact {
   background: url("../img/contact-bg.png") left top no-repeat;
   background-size: contain;
