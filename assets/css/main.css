@@ -1,15 +1,4 @@
-/**
-* Template Name: Nova
-* Template URL: https://bootstrapmade.com/nova-bootstrap-business-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Set main reusable colors and fonts using CSS variables
-# Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
---------------------------------------------------------------*/
 /* Fonts */
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -236,6 +225,7 @@ section {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
 .header {
   transition: all 0.5s;
   z-index: 997;
@@ -254,7 +244,8 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  width: 110%;
+  /* max-height: 40px; */
   margin-right: 6px;
 }
 
