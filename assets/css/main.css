@@ -731,6 +731,17 @@ section {
   color: var(--color-primary);
 }
 
+.card-start {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.cards-container > .row {
+  justify-content: center;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
