@@ -731,6 +731,15 @@ section {
   color: var(--color-primary);
 }
 
+/* CARDS-PRICE */
+
+.about .card-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .card-start {
   display: block;
   justify-content: center;
@@ -741,6 +750,59 @@ section {
 .cards-container > .row {
   justify-content: center;
 }
+
+.cards-container .card {
+  border: 3px black solid;
+}
+
+.about .card-body .content ul i{
+  color: #fff;
+}
+
+.about .card-body .content ul {
+  /* background-color: var(--bs-body-bg);
+  border-radius: 5px; */
+}
+
+
+.card-start {
+  background-color: #20a567;
+}
+.card-brown {
+  background-color: rgb(131, 83, 83);
+}
+.card-silver {
+  background-color: silver;
+}
+.card-gold {
+  background-color: gold;
+}
+
+.btn-price {
+  display: block;
+  margin: 0 auto;
+  width: 170px;
+  border: 2px black solid;
+  border-radius: 7px;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  background-color: var(--bs-body-bg);
+}
+
+.btn-price:hover {
+  background-color: rgba(27, 47, 69, 0.9);
+  color: var(--bs-body-bg);
+}
+
+
+
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Services Section
