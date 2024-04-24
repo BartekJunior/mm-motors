@@ -788,13 +788,24 @@ section {
   background-color: #62d8a1;
 }
 .card-brown {
-  background-color: rgb(131, 83, 83);
+  /* background-color: rgb(131, 83, 83); */
+  background-image: url(../img/bronze.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+
 .card-silver {
-  background-color: silver;
+  /* background-color: silver; */
+  background-image: url(../img/silver.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-gold {
-  background-color: gold;
+  /* background-color: gold; */
+  background-image: url(../img/gold.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .btn-price {
