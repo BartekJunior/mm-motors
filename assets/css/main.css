@@ -785,7 +785,10 @@ section {
 
 .card-start {
   margin-top: 35px;
-  background-color: #62d8a1;
+  /* background-color: #62d8a1; */
+  background-image: url(../img/start.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .card-brown {
   /* background-color: rgb(131, 83, 83); */
@@ -793,8 +796,6 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 .card-silver {
   /* background-color: silver; */
   background-image: url(../img/silver.jpg);
