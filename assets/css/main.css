@@ -630,9 +630,11 @@ section {
 }
 
 .why-us h3 {
+  margin: 10px 0 0;
   font-size: 24px;
   font-weight: 700;
   color: var(--color-secondary);
+  text-align: center;
 }
 
 .why-us h4 {
@@ -732,6 +734,11 @@ section {
   top: -3px;
   color: var(--color-primary);
 }
+
+.why-us .content .price-info ul i {
+  color: #b5b821;
+}
+
 
 /* CARDS-PRICE */
 
